@@ -1,9 +1,3 @@
 [submodule "AudioJacks"]
-	path = AudioJacks
+	path = submodules/AudioJacks
 	url = https://github.com/clacktronics/AudioJacks.git
-[submodule "kicad-libraries"]
-	path = kicad-libraries
-	url = https://github.com/espressif/kicad-libraries.git
-[submodule "rpi-pico2w-kicad"]
-	path = rpi-pico2w-kicad
-	url = https://github.com/gowthambiraj/rpi-pico2w-kicad.git

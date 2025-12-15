@@ -1,0 +1,17 @@
+(kicad_mod (version 20230121) (layer F.Cu) (tedit 20240320)
+  (descr "Sensirion SCD41 CO2 Sensor")
+  (tags "SCD41 CO2 sensor")
+  (fp_text reference REF** (at 0 -3.81 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -10.16 -7.62) (end 10.16 -7.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 10.16 -7.62) (end 10.16 7.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 10.16 7.62) (end -10.16 7.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -10.16 7.62) (end -10.16 -7.62) (layer F.CrtYd) (width 0.05))
+  
+  ;; Pins
+  (pad "1" smd rect (at -8.89 5.08 0) (size 1.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad "2" smd rect (at -8.89 2.54 0) (size 1.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad "3" smd rect (at -8.89 0 0) (size 1.6 0.8) (layers F.Cu F.Paste F.Mask))
+  (pad "4" smd rect (at -8.89 -2.54 0) (size 1.6 0.8) (layers F.Cu F.Paste F.Mask))
+) 

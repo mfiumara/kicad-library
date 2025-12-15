@@ -1,0 +1,68 @@
+esphome:
+  name: bedroom-co2
+
+esp32:
+  board: esp32-c6-devkitm-1
+  variant: esp32c6
+  framework:
+    type: esp-idf
+    # version: 5.2.1
+    # version: "5.3.0" #<<<<< this did not work
+    # platform_version: 6.8.1
+    # sdkconfig_options:
+      # CONFIG_ESPTOOLPY_FLASHSIZE_4MB: y
+
+output:
+  - platform: gpio
+    pin: GPIO8  # Change this to your LED pin
+    id: led_output
+
+light:
+  - platform: binary
+    name: "Status LED"
+    output: led_output
+    restore_mode: ALWAYS_OFF  # Ensures it stays off even after a reboot
+
+# Example configuration entry for ESP32
+i2c:
+  sda: GPIO06
+  scl: GPIO07
+  scan: true
+  id: bus_a
+
+# Example configuration entry
+sensor:
+  - platform: scd4x
+    co2:
+      name: "CO2"
+    temperature:
+      name: "Temperature"
+    humidity:
+      name: "Humidity"
+    automatic_self_calibration: true
+    # measurement_mode: low_power_periodic
+    measurement_mode: periodic
+
+# Enable logging
+logger:
+  level: DEBUG
+
+# Enable Home Assistant API
+api:
+  password: ""
+
+ota:
+  - platform: esphome
+    password: ""
+
+wifi:
+  ssid: "KPNC134F6"
+  password: "hC9LwhFF9v4LGMH6"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Bedroom-Co2 Fallback Hotspot"
+    password: "HVw9q9mFNIna"
+
+captive_portal:
+    

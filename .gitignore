@@ -1,0 +1,65 @@
+# KiCad backup and temporary files
+*.kicad_sch~
+*.kicad_pcb~
+*.kicad_sym~
+*.kicad_mod~
+*.bak
+*-bak
+*.bak~
+*_autosave-*
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# KiCad cache files
+*-cache.lib
+*-cache.dcm
+*.lib-cache
+*rescue.lib
+*rescue.dcm
+*-rescue.kicad_sym
+
+# Build artifacts
+*.zip
+*.tar.gz
+*.gerber
+*.gbr
+*.drl
+*.pdf
+!datasheets/**/*.pdf
+!docs/**/*.pdf
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
