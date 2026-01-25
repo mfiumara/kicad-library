@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MMDT3904-7-F
+D Diodes Inc MMDT3904-7-F Dual NPN Bipolar Transistor, 200 mA, 40 V, 6-Pin SOT-363
+K
+F https://www.diodes.com//assets/Datasheets/ds30088.pdf
+$ENDCMP
+#
+#End Doc Library

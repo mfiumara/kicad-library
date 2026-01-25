@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RD901F4015FA100K00DL1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RD901F4015FA100K00DL1")
+        (spec "default")
+    )
+)

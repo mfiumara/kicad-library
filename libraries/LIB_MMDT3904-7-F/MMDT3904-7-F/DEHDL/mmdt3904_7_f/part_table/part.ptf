@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MMDT3904_7_F'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "MMDT3904-7-F" (!) = "", "SOT65P210X110-6N", "SOT23 (6-Pin)", "621-MMDT3904-F", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMDT3904-7-F?qs=57mY3cMFOgk2hRxwFAQcAA%3D%3D", "Diodes Inc MMDT3904-7-F Dual NPN Bipolar Transistor, 200 mA, 40 V, 6-Pin SOT-363", "https://www.diodes.com//assets/Datasheets/ds30088.pdf", "1.1 mm"
+END_PART
+
+END.

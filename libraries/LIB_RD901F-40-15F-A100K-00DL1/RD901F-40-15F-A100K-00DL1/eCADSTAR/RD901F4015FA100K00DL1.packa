@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RD901F-40-15F-A100K-00DL1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2026-01-23-08:50:34)
+    (mountForm default
+        (footprintRef "RD901F4015FA100K00DL1")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Nichicon
+PartNumber=UES1H100MPM1TD
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2023-05-23 14:57:55
+Downloaded=2026-01-24 21:22:54
+3D=Y
