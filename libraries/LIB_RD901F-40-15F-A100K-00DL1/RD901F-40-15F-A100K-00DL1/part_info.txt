@@ -1,9 +1,0 @@
-Manufacturer=Alpha (Taiwan)
-PartNumber=RD901F-40-15F-A100K-00DL1
-PartCategory=Variable Resistor
-PackageCategory=Other
-PinCount=5
-Version=1.2
-Released=2026-01-23 08:50:34
-Downloaded=2026-01-24 21:45:26
-3D=Y

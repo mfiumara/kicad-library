@@ -1,9 +1,0 @@
-Manufacturer=Vishay
-PartNumber=TNPW06031K00BEEA
-PartCategory=Resistor
-PackageCategory=Resistor Chip
-PinCount=2
-Version=1.1
-Released=2022-09-06 06:01:44
-Downloaded=2026-01-23 22:02:02
-3D=Y

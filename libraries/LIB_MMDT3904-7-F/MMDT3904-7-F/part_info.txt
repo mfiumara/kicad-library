@@ -1,9 +1,0 @@
-Manufacturer=Diodes Incorporated
-PartNumber=MMDT3904-7-F
-PartCategory=Undefined or Miscellaneous
-PackageCategory=SOT23 (6-Pin)
-PinCount=6
-Version=7.1
-Released=2017-01-11 16:09:24
-Downloaded=2025-12-21 18:21:39
-3D=Y
