@@ -11,6 +11,11 @@
 *-save.kicad_pcb
 fp-info-cache
 
+# KiCad lock files and generated reports
+*.lck
+*.rpt
+*_drc_violations.json
+
 # KiCad cache files
 *-cache.lib
 *-cache.dcm
